@@ -1,0 +1,60 @@
+.title-component h1 {
+    font-size: 1.3rem;
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title-component p {
+    font-size: 1rem;
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.title-component button {
+    background-color: #f1cb83;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 700;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+@media (max-width: 729px) {
+    .carrosel-component-main-container {
+        width: 100vw;
+    }
+    
+    .title-component {
+        background-color: #302a2a;
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
+    .d-block {
+        height: 300px;
+    }
+  }
+  
+  @media (min-width: 730px) {
+    .carrosel-component-main-container {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .title-component {
+        position: absolute;
+        right: 100px;
+        color: white;
+        width: 500px;
+        text-align: right;
+        margin-right: 5%;
+    }
+
+    .d-block {
+        height: 600px;
+    }
+  }

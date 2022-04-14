@@ -1,0 +1,141 @@
+.footer-container-main {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    width: 100vw;
+    background-color: #231f20;
+    color: #afadae;
+    font-family: 'Roboto', sans-serif;    
+}
+
+.logo-container {
+    font-size: 1.6rem;
+    font-weight: bold;
+    width: 70vw;
+    margin: 0 auto;
+    color: #ffff;
+    padding: 40px;
+}
+
+.footer-elements {
+    width: 75vw;
+    margin: 0 auto;
+}
+
+.content-divider {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-around;
+
+}
+
+.navigation-footer {
+    margin-right: 20px;
+}
+
+.navigation-footer li {
+    margin: 20px 0;
+}
+
+.navigation-footer a {
+    text-decoration: none;
+    color: #afadae;
+    margin: 10px 0;
+}
+
+.navigation-footer a:hover {
+    color: #ffff;
+}
+
+
+.social-container {
+    margin-right: 20px;
+    
+
+}
+
+.social-container li {
+    margin: 20px 0;
+}
+
+.social-container li span {
+    color: #ffff;
+}
+
+.icons-container-footer {
+    font-size: 2.0rem;
+}
+
+
+.adress-container {
+  margin-right: 20px;   
+}
+
+.adress-container li {
+    margin: 5px 0;
+}
+
+.adress-container li:first-child{
+    color: #ffff;
+}
+
+.contac-style-unic {
+    color: #d3c396;
+}
+
+.contac-style-unic  span {
+    margin-left: 10px;
+}
+
+
+.whats-app-button {
+    font-size: 1.6rem;
+    margin: 30px;
+}
+
+.whats-app-button button{
+    background-color: #25d367;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 0px 5px 5px 5px;
+    border-radius: 100%;
+    border: none;
+}
+
+@media (max-width: 729px) {
+    
+    .footer-elements {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .content-divider:last-child {
+        flex-wrap: wrap;
+        
+    }
+    .adress-container {
+        margin-top: 30px;
+        margin-right: 20px;   
+      }
+
+}
+  
+@media (min-width: 730px) {
+    .footer-elements {
+        display: flex;
+        flex-direction: row;
+    }
+    .content-divide {
+        justify-content: space-around;
+        width: 25%;
+    }
+    .navigation-footer {
+        justify-content: space-around;
+        width: 50%;
+    }
+    .footer-elements {
+        justify-content: space-around;
+    }
+}

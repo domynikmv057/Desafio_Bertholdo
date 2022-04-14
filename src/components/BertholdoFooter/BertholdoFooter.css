@@ -1,0 +1,31 @@
+.bertholdo-footer-main {
+    width: 100vw;
+    align-self: flex-start;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9rem;
+    justify-content: space-around;
+    color: #afadae;
+    background-color: black;
+}
+
+.bertholdo-footer-main img {
+    size: 100%;
+}
+
+
+.bertholdo-footer-main div {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.bertholdo-footer-main div p {
+    margin-right: 15px;
+}
+
+.bertholdo-footer-main div p a {
+    color: #afadae;
+}
+

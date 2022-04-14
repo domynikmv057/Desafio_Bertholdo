@@ -1,0 +1,150 @@
+.header-component {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    background-color: #ff0000;
+    width: 100%;
+    min-height: 150px;  
+    display: flex;
+    flex-direction: column;
+}
+
+.header-component-navigate {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-component-contact{
+    background-color: #cc0000;
+
+
+}
+
+.header-component-contact div {
+    width: 70vw;
+    margin: 0 auto;
+    justify-content: flex-end;
+    min-height: 30px;
+    align-items: center;
+    color: #ffcc99;
+    font-weight: bold;
+    font-size: 0.6rem;
+    padding: 20px;
+
+}
+
+.header-component-contact div p {
+    margin: 0 15px;
+
+}
+
+.header-component-contact div span {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.header-component-contact div p:first-child{
+    color: white;
+}
+
+.icon-arrow {
+    margin-top: 2px;
+}
+
+.teste {
+    color: white !important;
+}
+
+.header-component-navigate {
+    margin-top: 15px;
+    padding: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 0 15%;
+
+}
+
+
+
+.logo-tipe-menu {
+    font-size: 1.6rem;
+}
+
+.search-icon {
+    display: inline-block;
+    background-color: #ffff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 15px;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media (max-width: 729px) {
+    .header-component-navigate{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px;
+    }
+    
+    .header-component-navigate ul {
+        display: flex;
+        font-size: 1rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-top: 15px;
+    }
+    .header-component-navigate li {
+        width: 50%;
+        margin-top: 5px;
+    }
+    .header-component-contact div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .header-component-contact div p {
+        width: 50%;
+    }
+    .header-component-contact div span {
+        display: none;
+    }
+    .icon-arrow {
+        display: none;
+    }
+}
+  
+@media (min-width: 730px) {
+    .header-component-navigate {
+        height: 80px;
+    }
+    .header-component-navigate ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-component-contact div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .list-menu {
+        font-size: 1rem;
+    }
+    .list-menu li {
+        margin: 0 10px;
+    }
+}

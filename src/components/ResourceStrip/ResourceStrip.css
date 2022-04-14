@@ -1,0 +1,53 @@
+.resource-strip-component div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resource-strip-component div h1 {
+    color: #f1cb83;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.resource-strip-component div button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #ffff;
+    color: #ffff;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+
+@media (max-width: 729px) {
+    .resource-strip-component {
+        display: flex;
+        flex-direction: column;
+
+    } 
+    .resource-strip-component div {
+        width: 100vw;
+        height: 150px;
+    }
+  }
+  
+  @media (min-width: 730px) {
+    .resource-strip-component {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    } 
+    .resource-strip-component div {
+        width: 25vw;
+        height: 150px;
+    }
+  }

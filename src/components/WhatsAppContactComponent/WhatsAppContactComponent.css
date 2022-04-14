@@ -1,0 +1,56 @@
+.whats-component-main {
+    background-color: #ffff;
+    padding: 30px;
+    width: 100vw;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.whats-component-main h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.whats-component-main p {
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+
+.whats-component-main button {
+    background-color: #68bb35;
+    color: #ffff;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 729px) {
+    .whats-component-main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .whats-text-menu {
+        text-align: center;
+        align-self: center;
+    }
+  }
+  
+  @media (min-width: 730px) {
+    .whats-component-main {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }  
+    .whats-text-menu {
+        width: 500px;
+
+    }
+}
